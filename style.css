@@ -1,0 +1,95 @@
+
+
+header {
+    background-color: rgb(53, 29, 29);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    color: rgb(248, 204, 167);
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about {
+    padding: 100px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#main-img {
+    height: 500px;
+    width: 75%;
+    object-fit: cover;
+    border-radius: 25px;
+
+    display: block;
+    margin:auto
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 247, 236);
+}
+
+#menu {
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-left: 80px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.menu-cards h3 {
+    margin-top: 55px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
+.menu-cards p {
+    font-size: 1rem;
+}
+
+.coffee,
+.tea,
+.cakes {
+    height: 200px;
+    width: 300px;
+    border: 3px solid rgb(53, 29, 29);
+    border-radius: 25px;
+
+    box-sizing: border-box;
+}
+.coffee {
+    background-color: rgb(228, 158, 115);
+}
+
+.tea {
+    background-color: rgb(101, 229, 186);
+}
+
+.cakes {
+    background-color: rgb(244, 149, 181);
+}
+
+footer {
+    background-color: rgb(53, 29, 29);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
